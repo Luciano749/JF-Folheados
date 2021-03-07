@@ -97,7 +97,7 @@ nav a:hover {
 
 #firstSection {
   background-color: rgb(0, 0, 0);
-  background-image: url(../JF-folheados/img/fistWoman.jpg);
+  background-image: url(../img/fistWoman.jpg);
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -264,17 +264,17 @@ nav a:hover {
 }
 
 #image-block-1 {
-  background-image: url(../JF-folheados/img/ring.jpg);
+  background-image: url(../img/ring.jpg);
 }
 
 #image-block-2 {
-  background-image: url(../JF-folheados/img/necklace.jpg);
+  background-image: url(../img/necklace.jpg);
 }
 
 #image-block-3 {
-  background-image: url(../JF-folheados/img/bracelet.jpg);
+  background-image: url(../img/bracelet.jpg);
 }
 
 #image-block-4 {
-  background-image: url(../JF-folheados/img/earring.jpg);
+  background-image: url(../img/earring.jpg);
 }
