@@ -77,6 +77,10 @@
     width: 45%;
   }
 
+  .block-ex p {
+    font-size: 1.5rem;
+  }
+
   #thirdSection h1 {
     text-align: center;
     font-size: 4rem;
@@ -217,6 +221,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  #blocks-container {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .block-ex {
+    width: 50%;
+    flex-wrap: wrap;
   }
 
   .image-text h1 {

@@ -97,7 +97,7 @@ nav a:hover {
 
 #firstSection {
   background-color: rgb(0, 0, 0);
-  background-image: url(../img/fistWoman.jpg);
+  background-image: url(../git/JF-folheados/img/fistWoman.jpg);
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -131,6 +131,7 @@ nav a:hover {
 #firstSection a {
   margin-top: 2rem;
   padding: 2rem 4rem;
+
   background-color: rgb(0, 0, 0);
   border-radius: 0.5rem;
 
@@ -150,9 +151,23 @@ nav a:hover {
   transform: scale(1.1);
 }
 
+#firstSection a:nth-child(5) {
+  color: black;
+  background-color: white;
+}
+
 #whatsapp-logo {
   font-size: 3.5rem;
-  color: rgba(74, 175, 74, 0.61);
+  color: rgb(255, 255, 255);
+
+  z-index: 1;
+  margin-left: 2rem;
+}
+
+ion-icon[name="logo-instagram"] {
+  font-size: 3.5rem;
+  color: rgb(0, 0, 0);
+
   z-index: 1;
   margin-left: 2rem;
 }
@@ -188,17 +203,20 @@ nav a:hover {
 .block-ex ion-icon {
   font-size: 4rem;
   color: white;
+
   padding: 0.5rem;
   background-color: rgb(0, 0, 0);
-  border-radius: 50rem;
-}
 
-.block-ex h3 {
-  font-size: 2rem;
+  border-radius: 50rem;
 }
 
 .block-ex p {
   font-size: 2rem;
+  height: 5rem;
+
+  text-transform: uppercase;
+
+  width: min-content;
 }
 
 /* ////////////////////////////////////// */
@@ -264,17 +282,17 @@ nav a:hover {
 }
 
 #image-block-1 {
-  background-image: url(../img/ring.jpg);
+  background-image: url(../git/JF-folheados/img/ring.jpg);
 }
 
 #image-block-2 {
-  background-image: url(../img/necklace.jpg);
+  background-image: url(../git/JF-folheados/img/necklace.jpg);
 }
 
 #image-block-3 {
-  background-image: url(../img/bracelet.jpg);
+  background-image: url(../git/JF-folheados/img/bracelet.jpg);
 }
 
 #image-block-4 {
-  background-image: url(../img/earring.jpg);
+  background-image: url(../git/JF-folheados/img/earring.jpg);
 }
